@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all_notifications"
+        android:title="@string/filter_all_notifications"/>
+    <item
+        android:id="@+id/only_episode_notifications"
+        android:title="@string/filter_only_episode_notifications"/>
+    <item
+        android:id="@+id/only_release_notifications"
+        android:title="@string/filter_only_release_notifications"/>
+    <item
+        android:id="@+id/only_friend_notifications"
+        android:title="@string/filter_only_friend_notifications"/>
+    <item
+        android:id="@+id/only_comment_notifications"
+        android:title="@string/filter_only_comment_notifications"/>
+</menu>

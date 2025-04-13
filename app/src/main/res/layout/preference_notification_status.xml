@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <HorizontalScrollView
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.swiftsoft.anixartd.utils.radiobutton.CustomRadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.swiftsoft.anixartd.utils.radiobutton.types.CardRadioButton
+                android:id="@+id/statusAll"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                app:rbLayout="@layout/item_radio_notification_status_all"
+                app:rbTitle="Из всех моих списков"/>
+            <com.swiftsoft.anixartd.utils.radiobutton.types.CardRadioButton
+                android:id="@+id/statusSelected"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                app:rbLayout="@layout/item_radio_notification_status_all_selected"
+                app:rbTitle="Из выбранных списков"/>
+            <com.swiftsoft.anixartd.utils.radiobutton.types.CardRadioButton
+                android:id="@+id/statusRelease"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                app:rbLayout="@layout/item_radio_notification_status_release"
+                app:rbTitle="По выбранным релизам"/>
+        </com.swiftsoft.anixartd.utils.radiobutton.CustomRadioGroup>
+    </HorizontalScrollView>
+</FrameLayout>

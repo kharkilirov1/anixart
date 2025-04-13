@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/error_layout"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    android:layout_weight="1"
+    android:paddingStart="16dp">
+    <TextView
+        android:textColor="?attr/secondaryTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_load"/>
+    <RelativeLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/repeat"
+            android:textAllCaps="false"
+            style="@style/AnixButton.Outlined"/>
+    </RelativeLayout>
+</LinearLayout>

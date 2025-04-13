@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/secondaryTextColor"
+        android:layout_gravity="center"
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="20"
+        android:layout_above="@+id/progress"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_medium"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/progress"
+        android:background="@drawable/background_accent_round"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/day"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:textColor="?attr/tertiaryTextColor"
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="10.09"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:rotation="-60"/>
+</RelativeLayout>

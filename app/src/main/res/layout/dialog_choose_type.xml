@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="18dp"
+    android:paddingBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18sp"
+            android:textColor="?attr/primaryTextColor"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_receive_from"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <com.swiftsoft.anixartd.utils.radiobutton.CustomRadioGroup
+                        android:orientation="vertical"
+                        android:id="@+id/container_custom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="24dp"
+                        android:paddingEnd="24dp">
+                        <com.swiftsoft.anixartd.utils.radiobutton.types.OneFieldCardRadioButton
+                            android:id="@+id/nothing"
+                            android:background="@drawable/background_custom_radio_button_one_field_card_unselected_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            app:rbIcon="@drawable/ic_close_circle"
+                            app:rbTitle="Не получать"/>
+                        <com.swiftsoft.anixartd.utils.radiobutton.types.OneFieldCardRadioButton
+                            android:id="@+id/all"
+                            android:background="@drawable/background_custom_radio_button_one_field_card_unselected_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            app:rbIcon="@drawable/ic_playlist_add_check"
+                            app:rbTitle="От всех озвучек"/>
+                        <com.swiftsoft.anixartd.utils.radiobutton.types.OneFieldCardRadioButton
+                            android:id="@+id/selected"
+                            android:background="@drawable/background_custom_radio_button_one_field_card_unselected_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:rbChevron="true"
+                            app:rbIcon="@drawable/ic_checklist"
+                            app:rbTitle="От выбранных"/>
+                    </com.swiftsoft.anixartd.utils.radiobutton.CustomRadioGroup>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</LinearLayout>

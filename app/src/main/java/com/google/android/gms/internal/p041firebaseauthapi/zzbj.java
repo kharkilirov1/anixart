@@ -1,0 +1,13 @@
+package com.google.android.gms.internal.p041firebaseauthapi;
+
+import java.security.GeneralSecurityException;
+
+/* compiled from: com.google.firebase:firebase-auth@@21.0.6 */
+/* loaded from: classes.dex */
+public interface zzbj {
+    /* renamed from: a */
+    zzap mo8864a(String str) throws GeneralSecurityException;
+
+    /* renamed from: b */
+    boolean mo8865b(String str);
+}

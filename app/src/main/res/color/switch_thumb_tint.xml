@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:state_checked="false"
+        android:color="@color/switch_on_surface"
+        android:alpha="@dimen/material_emphasis_disabled"/>
+    <item
+        android:state_enabled="false"
+        android:state_checked="true"
+        android:color="@color/switch_surface"
+        android:alpha="@dimen/material_emphasis_disabled"/>
+    <item
+        android:state_checked="true"
+        android:state_pressed="true"
+        android:color="@color/switch_primary_container"/>
+    <item
+        android:state_checked="true"
+        android:color="@color/switch_on_primary"/>
+    <item
+        android:state_pressed="true"
+        android:color="@color/switch_on_surface_variant"/>
+    <item android:color="@color/switch_outline"/>
+</selector>

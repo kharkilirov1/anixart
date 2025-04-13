@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AnixButton.Bottom" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">#9e9e9e</item>
+        <item name="android:backgroundTint">#424242</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="rippleColor">@null</item>
+    </style>
+    <style name="AnixButton.Through.Accent" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">#111111</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">?attr/colorAccent</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="rippleColor">@null</item>
+    </style>
+    <style name="AnixButton.Through.Blue" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">#4d5b8e</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">#d4deff</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="rippleColor">@null</item>
+    </style>
+    <style name="AnixButton.Unelevated" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">#111111</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">#e0e0e0</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    <style name="AnixButton.Unelevated.Dialog" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">#111111</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">2147483647</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:backgroundTint">#e0e0e0</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    <style name="AnixButton.Unelevated.Small" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">#111111</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">#e0e0e0</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    <style name="AnixButton.Unelevated.Update.Small" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">#e666bb6c</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">#e0e0e0</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="buttonTint">@color/md_white_1000</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    <style name="AppTheme" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:textColorSecondary">@color/md_grey_600</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:navigationBarColor">#252525</item>
+        <item name="actionBarSize">56dp</item>
+        <item name="addFavButtonColor">@color/md_grey_300</item>
+        <item name="addFavButtonTextColor">@color/md_grey_900</item>
+        <item name="alertDialogTheme">@style/DialogTheme</item>
+        <item name="backgroundAdItem">@color/white_alpha_5</item>
+        <item name="backgroundColorSecondary">#252525</item>
+        <item name="backgroundColorTertiary">#1a1a1a</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="colorAccent">#e0e0e0</item>
+        <item name="colorOnBackground">#121212</item>
+        <item name="colorPrimary">#e0e0e0</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorSurface">#121212</item>
+        <item name="deleteButtonColor">#252525</item>
+        <item name="deleteButtonTextColor">@color/md_grey_300</item>
+        <item name="dialogBackgroundAccent">@color/accent_alpha_20</item>
+        <item name="dialogPreferenceStyle">@style/CustomDialogPreferenceStyle</item>
+        <item name="editButtonColor">#252525</item>
+        <item name="editButtonTextColor">@color/md_grey_300</item>
+        <item name="iconAccentTintColor">@color/lavender</item>
+        <item name="iconAltTintColor">#e0e0e0</item>
+        <item name="iconLightDarkColor">#e0e0e0</item>
+        <item name="iconSecondaryTintColor">#616161</item>
+        <item name="iconTintColor">#757575</item>
+        <item name="invertBlackWhiteColor">#e0e0e0</item>
+        <item name="invertColor">#212121</item>
+        <item name="placeholderEnd">#616161</item>
+        <item name="placeholderStart">#424242</item>
+        <item name="popupMenuBackground">@drawable/custom_m3_popupmenu_background_overlay</item>
+        <item name="preferenceCategoryTitleTextColor">@color/lavender</item>
+        <item name="preferenceStyle">@style/CustomPreferenceStyle</item>
+        <item name="primaryTextColor">#e0e0e0</item>
+        <item name="progressBackTint">#424242</item>
+        <item name="progressTint">#e0e0e0</item>
+        <item name="secondaryButtonColor">#252525</item>
+        <item name="secondaryButtonTextColor">@color/md_grey_300</item>
+        <item name="secondaryTextColor">#9e9e9e</item>
+        <item name="sectionBadgeColor">@color/md_grey_900</item>
+        <item name="separatorColor">#1affffff</item>
+        <item name="switchPreferenceStyle">@style/CustomSwitchPreferenceStyle</item>
+        <item name="tertiaryTextColor">#757575</item>
+        <item name="warningTextColor">#745c21</item>
+    </style>
+    <style name="AppTheme.Auth" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="backgroundColorSecondary">#252525</item>
+        <item name="colorAccent">#e0e0e0</item>
+        <item name="colorPrimary">#e0e0e0</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+        <item name="primaryTextColor">#e0e0e0</item>
+        <item name="secondaryTextColor">#9e9e9e</item>
+        <item name="tertiaryTextColor">#757575</item>
+        <item name="warningTextColor">#745c21</item>
+    </style>
+    <style name="AppTheme.ExposedDropdownMenu" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense">
+        <item name="colorSurface">#fc252525</item>
+    </style>
+    <style name="DialogTheme" parent="@style/Theme.MaterialComponents.DayNight.Dialog">
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">65%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AnixButton.Outlined.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/DialogNeutralButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AnixButton.Unelevated.Dialog</item>
+        <item name="colorAccent">#e0e0e0</item>
+        <item name="colorPrimary">#e0e0e0</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="primaryTextColor">#e0e0e0</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar">
+    </style>
+    <style name="Theme.Material3.DayNight" parent="@style/Theme.Material3.Dark">
+    </style>
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="@style/Theme.Material3.Dark.BottomSheetDialog">
+    </style>
+    <style name="Theme.Material3.DayNight.Dialog" parent="@style/Theme.Material3.Dark.Dialog">
+    </style>
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="@style/Theme.Material3.Dark.Dialog.Alert">
+    </style>
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="@style/Theme.Material3.Dark.Dialog.MinWidth">
+    </style>
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="@style/Theme.Material3.Dark.DialogWhenLarge">
+    </style>
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="@style/Theme.Material3.Dark.NoActionBar">
+    </style>
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="@style/Theme.Material3.DynamicColors.Dark">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge">
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark">
+    </style>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="@style/Widget.MaterialComponents.ActionBar.Surface">
+    </style>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface">
+    </style>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar">
+    </style>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomNavigationView">
+    </style>
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView">
+    </style>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout">
+    </style>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface">
+    </style>
+</resources>

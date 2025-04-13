@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/watching_now_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+        <TextView
+            android:textSize="18sp"
+            android:textColor="?attr/primaryTextColor"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Смотрят сейчас"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_medium"/>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="?attr/colorPrimary"
+            android:gravity="center"
+            android:id="@+id/watching_show_all"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/show_more"
+            android:fontFamily="@font/roboto_medium"/>
+    </LinearLayout>
+    <com.airbnb.epoxy.EpoxyRecyclerView
+        android:id="@+id/watching_now_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="@color/appbar_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+</LinearLayout>

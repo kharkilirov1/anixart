@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.swiftsoft.anixartd.p015ui.fragment.main.preference.layout.ViewTypePreferenceLayout
+        android:layout="@layout/preference_view_type"
+        android:key="view_type_preferences"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false"
+        app:rpTitle="@string/view_type"/>
+    <ListPreference
+        android:entries="@array/bookmarks_default_page_values"
+        android:title="@string/bookmarks_default_page"
+        android:key="bookmarks_default_page"
+        android:defaultValue="2"
+        android:dialogTitle="@string/bookmarks_default_page"
+        android:entryValues="@array/entry_bookmarks_default_page_values"
+        app:iconSpaceReserved="false"
+        app:useSimpleSummaryProvider="true"/>
+    <ListPreference
+        android:entries="@array/home_default_page_values"
+        android:title="@string/home_default_page"
+        android:key="home_default_page"
+        android:defaultValue="1"
+        android:dialogTitle="@string/home_default_page"
+        android:entryValues="@array/entry_home_default_page_values"
+        app:iconSpaceReserved="false"
+        app:useSimpleSummaryProvider="true"/>
+    <ListPreference
+        android:entries="@array/profile_watched_time_format_values"
+        android:title="@string/profile_watched_time_format"
+        android:key="profile_watched_time_format"
+        android:defaultValue="0"
+        android:dialogTitle="Формат времени просмотра в профиле"
+        android:entryValues="@array/entry_profile_watched_time_format"
+        app:iconSpaceReserved="false"
+        app:useSimpleSummaryProvider="true"/>
+    <SwitchPreference
+        android:title="@string/bottom_navigation_compact"
+        android:key="bottom_navigation_compact"
+        android:summary="@string/bottom_navigation_compact_summary"
+        android:widgetLayout="@layout/preference_switch"
+        app:iconSpaceReserved="false"/>
+</PreferenceScreen>

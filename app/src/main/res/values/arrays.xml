@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ageRatings">
+        <item>0+</item>
+        <item>6+</item>
+        <item>12+</item>
+        <item>16+</item>
+        <item>18+</item>
+    </array>
+    <array name="bookmarks_default_page_values">
+        <item>Коллекции</item>
+        <item>История</item>
+        <item>Избранное</item>
+        <item>Смотрю</item>
+        <item>В планах</item>
+        <item>Просмотрено</item>
+        <item>Отложено</item>
+        <item>Брошено</item>
+    </array>
+    <array name="categories">
+        <item>Неважно</item>
+        <item>Сериал</item>
+        <item>Полнометражный фильм</item>
+        <item>OVA</item>
+        <item>Дорама</item>
+    </array>
+    <array name="collection_report_reasons">
+        <item>Эротический/шокирующий контент</item>
+        <item>Спойлеры</item>
+        <item>Нецензурная лексика</item>
+        <item>Реклама</item>
+        <item>Другое</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="comment_report_reasons">
+        <item>Спам</item>
+        <item>Оскорбление</item>
+        <item>Призыв к травле</item>
+        <item>Спойлер</item>
+        <item>Другое</item>
+    </array>
+    <array name="countries">
+        <item>Неважно</item>
+        <item>Япония</item>
+        <item>Китай</item>
+    </array>
+    <array name="downloader_values">
+        <item>Спрашивать</item>
+        <item>Системный загрузчик</item>
+        <item>Внешний загрузчик</item>
+    </array>
+    <array name="empty_array">
+    </array>
+    <array name="entry_bookmarks_default_page_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </array>
+    <array name="entry_downloader_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="entry_home_default_page_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="entry_night_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="entry_players_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="entry_privacy_friend_requests_values">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="entry_privacy_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="entry_profile_privacy_values">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="entry_profile_watched_time_format">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="entry_third_party_video_quality_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="entry_video_quality_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="entry_view_type_values">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="episodeDurations">
+        <item>Неважно</item>
+        <item>До 10 минут</item>
+        <item>До 30 минут</item>
+        <item>Более 30 минут</item>
+    </array>
+    <array name="episode_report_reasons">
+        <item>Серия не загружается</item>
+        <item>Серия перепутана</item>
+        <item>Другое</item>
+    </array>
+    <array name="episodes">
+        <item>Неважно</item>
+        <item>От 1 до 12</item>
+        <item>От 13 до 25</item>
+        <item>От 26 до 100</item>
+        <item>Больше 100</item>
+    </array>
+    <array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </array>
+    <array name="genres">
+        <item>безумие</item>
+        <item>боевик</item>
+        <item>боевые искусства</item>
+        <item>вампиры</item>
+        <item>военное</item>
+        <item>гарем</item>
+        <item>демоны</item>
+        <item>детектив</item>
+        <item>детское</item>
+        <item>дзёсей</item>
+        <item>драма</item>
+        <item>игры</item>
+        <item>исторический</item>
+        <item>история</item>
+        <item>комедия</item>
+        <item>космос</item>
+        <item>магия</item>
+        <item>машины</item>
+        <item>меха</item>
+        <item>мистика</item>
+        <item>музыка</item>
+        <item>музыкальный</item>
+        <item>научная фантастика</item>
+        <item>пародия</item>
+        <item>повседневность</item>
+        <item>полиция</item>
+        <item>приключения</item>
+        <item>психологическое</item>
+        <item>романтика</item>
+        <item>самураи</item>
+        <item>сверхъестественное</item>
+        <item>сейнен</item>
+        <item>спорт</item>
+        <item>супер сила</item>
+        <item>сёдзё</item>
+        <item>сёдзё-ай</item>
+        <item>сёнен</item>
+        <item>сёнен-ай</item>
+        <item>триллер</item>
+        <item>ужасы</item>
+        <item>фантастика</item>
+        <item>фэнтези</item>
+        <item>школа</item>
+        <item>экшен</item>
+        <item>этти</item>
+    </array>
+    <array name="home_default_page_values">
+        <item>Моя вкладка</item>
+        <item>Последнее</item>
+        <item>Онгоинги</item>
+        <item>Анонсы</item>
+        <item>Завершенные</item>
+        <item>Фильмы</item>
+    </array>
+    <array name="night_mode_values">
+        <item>Выключена</item>
+        <item>Включена</item>
+        <item>Следовать настройкам системы</item>
+        <item>В режиме энергосбережения</item>
+    </array>
+    <array name="players_values">
+        <item>Спрашивать</item>
+        <item>Веб-плеер</item>
+        <item>Встроенный</item>
+        <item>Сторонний</item>
+    </array>
+    <array name="preloaded_fonts">
+        <item>@font/roboto_black</item>
+        <item>@font/roboto_light</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/varela_round</item>
+    </array>
+    <array name="privacy_friend_requests_values">
+        <item>Все пользователи</item>
+        <item>Никто</item>
+    </array>
+    <array name="privacy_values">
+        <item>Все пользователи</item>
+        <item>Только друзья</item>
+        <item>Только я</item>
+    </array>
+    <array name="profile_lists">
+        <item>Избранное</item>
+        <item>Смотрю</item>
+        <item>В планах</item>
+        <item>Просмотрено</item>
+        <item>Отложено</item>
+        <item>Брошено</item>
+    </array>
+    <array name="profile_lists_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="profile_privacy_values">
+        <item>Всем</item>
+        <item>Никому</item>
+    </array>
+    <array name="profile_report_reasons">
+        <item>Спам</item>
+        <item>Некорректный никнейм</item>
+        <item>Оскорбление</item>
+        <item>Другое</item>
+    </array>
+    <array name="profile_watched_time_format_values">
+        <item>Дни и часы</item>
+        <item>Часы</item>
+    </array>
+    <array name="release_report_reasons">
+        <item>Ошибка в оформлении</item>
+        <item>Отсутствуют серии</item>
+        <item>Другое</item>
+    </array>
+    <array name="seasons">
+        <item>Неважно</item>
+        <item>Зима</item>
+        <item>Весна</item>
+        <item>Лето</item>
+        <item>Осень</item>
+    </array>
+    <array name="sort">
+        <item>По дате добавления</item>
+        <item>По рейтингу</item>
+        <item>По годам</item>
+    </array>
+    <array name="sponsorship_period">
+        <item>3 месяца на 99 ₽</item>
+        <item>6 месяцев на 189 ₽</item>
+        <item>12 месяцев на 349 ₽</item>
+    </array>
+    <array name="statuses">
+        <item>Неважно</item>
+        <item>Вышел</item>
+        <item>Выходит</item>
+        <item>Анонс</item>
+    </array>
+    <array name="studios">
+        <item>Неважно</item>
+        <item>A-1 Pictures</item>
+        <item>A.C.G.T</item>
+        <item>ACTAS, Inc</item>
+        <item>ACiD FiLM</item>
+        <item>AIC A.S.T.A</item>
+        <item>AIC PLUS</item>
+        <item>AIC Spirits</item>
+        <item>AIC</item>
+        <item>Animac</item>
+        <item>ANIMATE</item>
+        <item>Aniplex</item>
+        <item>ARMS</item>
+        <item>Artland</item>
+        <item>ARTMIC Studios</item>
+        <item>Asahi Production</item>
+        <item>Asia-Do</item>
+        <item>ASHI</item>
+        <item>Asread</item>
+        <item>Asmik Ace</item>
+        <item>Aubeck</item>
+        <item>BM Entertainment</item>
+        <item>Bandai Visua</item>
+        <item>Barnum Studio</item>
+        <item>Bee Train</item>
+        <item>BeSTACK</item>
+        <item>Blender Foundation</item>
+        <item>Bones</item>
+        <item>Brains Base</item>
+        <item>Bridge</item>
+        <item>Cinema Citrus</item>
+        <item>Chaos Project</item>
+        <item>Cherry Lips</item>
+        <item>David Production</item>
+        <item>Daume</item>
+        <item>Doumu</item>
+        <item>Dax International</item>
+        <item>DLE INC</item>
+        <item>Digital Frontier</item>
+        <item>Digital Works</item>
+        <item>Diomedea</item>
+        <item>DIRECTIONS Inc</item>
+        <item>Dogakobo</item>
+        <item>Dofus</item>
+        <item>Encourage Films</item>
+        <item>Feel</item>
+        <item>Fifth Avenue</item>
+        <item>Five Ways</item>
+        <item>Fuji TV</item>
+        <item>Foursome</item>
+        <item>GRAM Studio</item>
+        <item>G&amp;G Entertainment</item>
+        <item>Gainax</item>
+        <item>GANSIS</item>
+        <item>Gathering</item>
+        <item>Gonzino</item>
+        <item>Gonzo</item>
+        <item>GoHands</item>
+        <item>Green Bunny</item>
+        <item>Group TAC</item>
+        <item>Hal Film Maker</item>
+        <item>Hasbro Studios</item>
+        <item>h.m.p</item>
+        <item>Himajin</item>
+        <item>Hoods Entertainment</item>
+        <item>Idea Factory</item>
+        <item>J.C.Staff</item>
+        <item>KANSAI</item>
+        <item>Kaname Production</item>
+        <item>Kitty Films</item>
+        <item>Knack</item>
+        <item>Kokusai Eigasha</item>
+        <item>KSS (студия)</item>
+        <item>Kyoto Animation</item>
+        <item>Lemon Heart</item>
+        <item>LMD</item>
+        <item>Madhouse Studios</item>
+        <item>Magic Bus</item>
+        <item>Manglobe Inc.</item>
+        <item>Manpuku Jinja</item>
+        <item>MAPPA</item>
+        <item>Milky</item>
+        <item>Minamimachi Bugyosho</item>
+        <item>Media Blasters</item>
+        <item>Mook Animation</item>
+        <item>Moonrock</item>
+        <item>MOVIC</item>
+        <item>Mushi Productions</item>
+        <item>Natural High</item>
+        <item>Nippon Animation</item>
+        <item>Nomad</item>
+        <item>Lerche</item>
+        <item>OB Planning</item>
+        <item>Office AO</item>
+        <item>Ordet</item>
+        <item>Oriental Light and Magic</item>
+        <item>OLM Inc.</item>
+        <item>P.A. Works</item>
+        <item>Palm Studio</item>
+        <item>Pastel</item>
+        <item>Phoenix Entertainment</item>
+        <item>Picture Magic</item>
+        <item>Pink</item>
+        <item>Pink Pineapple</item>
+        <item>Planet</item>
+        <item>Plum</item>
+        <item>PPM</item>
+        <item>Primastea</item>
+        <item>Production I.G</item>
+        <item>Project No.9</item>
+        <item>Radix</item>
+        <item>Rikuentai</item>
+        <item>Robot</item>
+        <item>Satelight</item>
+        <item>Seven</item>
+        <item>Seven Arcs</item>
+        <item>Shaft</item>
+        <item>Silver Link</item>
+        <item>Shinei Animation</item>
+        <item>Shogakukan Music &amp; Digital Entertainment</item>
+        <item>Soft on Demand</item>
+        <item>Starchild Records</item>
+        <item>Studio 9 Maiami</item>
+        <item>Studio Tulip</item>
+        <item>Studio 4°C</item>
+        <item>Studio e.go!</item>
+        <item>Studio A.P.P.P</item>
+        <item>Studio Barcelona</item>
+        <item>Studio Blanc</item>
+        <item>Studio Comet</item>
+        <item>Studio Deen</item>
+        <item>Studio Fantasia</item>
+        <item>Studio Flag</item>
+        <item>Studio Gallop</item>
+        <item>Studio Ghibli</item>
+        <item>Studio Guts</item>
+        <item>Studio Gokumi</item>
+        <item>Studio Rikka</item>
+        <item>Studio Hibari</item>
+        <item>Studio Junio</item>
+        <item>Studio Khara</item>
+        <item>Studio Live</item>
+        <item>Studio Matrix</item>
+        <item>Studio Pierrot</item>
+        <item>Studio Egg</item>
+        <item>Sunrise</item>
+        <item>Synergy SP</item>
+        <item>Synergy Japan</item>
+        <item>Tatsunoko Production</item>
+        <item>Tele-Cartoon Japan</item>
+        <item>Telecom Animation Film</item>
+        <item>Tezuka Productions</item>
+        <item>The Answer Studio</item>
+        <item>TMS</item>
+        <item>TNK</item>
+        <item>Toei Animation</item>
+        <item>Tokyo Kids</item>
+        <item>TYO Animations</item>
+        <item>Transarts</item>
+        <item>Triangle Staff</item>
+        <item>Trinet Entertainment</item>
+        <item>Ufotable</item>
+        <item>Vega Entertainment</item>
+        <item>Victor Entertainment</item>
+        <item>Viewworks</item>
+        <item>White Fox</item>
+        <item>Wonder Farm</item>
+        <item>XEBEC-M2</item>
+        <item>Xebec</item>
+        <item>Yumeta Company</item>
+        <item>Zexcs</item>
+        <item>Zuiyo Eizo</item>
+        <item>8bit</item>
+    </array>
+    <array name="third_party_video_quality_values">
+        <item>Спрашивать</item>
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </array>
+    <array name="video_quality_values">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </array>
+    <array name="view_type_values">
+        <item>Списком</item>
+        <item>Карточками</item>
+    </array>
+</resources>

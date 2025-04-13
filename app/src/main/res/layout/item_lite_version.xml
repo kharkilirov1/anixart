@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background_lite_message"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+    <TextView
+        android:textColor="@color/blue_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Это упрощенная версия с ограниченным функционалом. Некоторые функции могут быть недоступны."/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/background_lite_message_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp">
+            <TextView
+                android:textColor="@color/blue_secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Узнайте подробнее »"
+                android:fontFamily="@font/roboto_medium"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

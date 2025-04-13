@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/custom_tab_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="8dp"
+                android:paddingBottom="56dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view"
+                    android:paddingTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/sticker_6"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="?attr/primaryTextColor"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Это ваша вкладка"
+                    android:fontFamily="@font/roboto_medium"/>
+                <TextView
+                    android:textColor="?attr/secondaryTextColor"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Настройте её под себя и укажите,\10 что хотели бы здесь видеть"
+                    android:lineSpacingExtra="4sp"/>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Настроить"
+                    style="@style/AnixButton.Outlined"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

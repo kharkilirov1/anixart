@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:foreground="@drawable/selectable_radio">
+        <ViewStub
+            android:id="@+id/radio_button_layout"
+            android:layout="@layout/item_radio_notification_status_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:gravity="end|bottom"
+            android:orientation="vertical"
+            android:id="@+id/radio_button_selected"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_check_circle"
+                android:layout_marginEnd="8dp"
+                app:tint="?attr/iconAccentTintColor"/>
+        </LinearLayout>
+        <View
+            android:id="@+id/radio_button"
+            android:background="@drawable/background_custom_radio_button_card_unselected_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <TextView
+        android:textSize="13sp"
+        android:textColor="?attr/secondaryTextColor"
+        android:id="@+id/radio_button_two_fields_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:letterSpacing="-0.02"/>
+</LinearLayout>

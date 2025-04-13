@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:title="@string/alternative_connection"
+        android:key="alternative_connection"
+        android:summary="@string/alternative_connection_summary"
+        android:widgetLayout="@layout/preference_switch"
+        app:iconSpaceReserved="false"/>
+</PreferenceScreen>

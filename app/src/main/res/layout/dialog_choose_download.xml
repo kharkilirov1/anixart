@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="18dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <TextView
+        android:textSize="18sp"
+        android:textColor="?attr/primaryTextColor"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите способ"
+        android:fontFamily="@font/roboto_medium"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.swiftsoft.anixartd.utils.radiobutton.CustomRadioGroup
+                    android:orientation="vertical"
+                    android:id="@+id/container_custom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp">
+                    <com.swiftsoft.anixartd.utils.radiobutton.types.TwoFieldsRadioButton
+                        android:id="@+id/itemSystemLoader"
+                        android:background="@drawable/background_custom_radio_buttons_unselected_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:rbDescription="Стандартный способ скачивания в папку «Загрузки» на вашем устройстве"
+                        app:rbTitle="Системный загрузчик"/>
+                    <com.swiftsoft.anixartd.utils.radiobutton.types.TwoFieldsRadioButton
+                        android:id="@+id/itemExternalLoader"
+                        android:background="@drawable/background_custom_radio_buttons_unselected_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:rbDescription="Загрузка через внешний загрузчик, который предварительно установлен на вашем устройстве"
+                        app:rbTitle="Внешний загрузчик"/>
+                </com.swiftsoft.anixartd.utils.radiobutton.CustomRadioGroup>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/cbAskAlways"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/player_always_ask"
+            android:layout_weight="1"/>
+        <com.google.android.material.button.MaterialButton
+            android:gravity="center"
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Скачать"
+            android:layout_weight="1"
+            style="@style/AnixButton.Outlined"/>
+    </LinearLayout>
+</LinearLayout>

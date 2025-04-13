@@ -1,0 +1,136 @@
+package com.yandex.div2;
+
+import com.yandex.div.internal.parser.C2904b;
+import com.yandex.div.internal.parser.JsonParserKt;
+import com.yandex.div.json.JSONSerializable;
+import com.yandex.div.json.JsonTemplate;
+import com.yandex.div.json.ParsingEnvironment;
+import com.yandex.div.json.ParsingExceptionKt;
+import com.yandex.div2.DivChangeTransition;
+import com.yandex.div2.DivChangeTransitionTemplate;
+import kotlin.Metadata;
+import kotlin.NoWhenBranchMatchedException;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+import org.json.JSONObject;
+
+/* compiled from: DivChangeTransitionTemplate.kt */
+@Metadata(m31882bv = {}, m31883d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b6\u0018\u00002\u00020\u00012\b\u0012\u0004\u0012\u00020\u00030\u0002:\u0003\u0004\u0005\u0006\u0082\u0001\u0002\u0007\b¨\u0006\t"}, m31884d2 = {"Lcom/yandex/div2/DivChangeTransitionTemplate;", "Lcom/yandex/div/json/JSONSerializable;", "Lcom/yandex/div/json/JsonTemplate;", "Lcom/yandex/div2/DivChangeTransition;", "Bounds", "Companion", "Set", "Lcom/yandex/div2/DivChangeTransitionTemplate$Set;", "Lcom/yandex/div2/DivChangeTransitionTemplate$Bounds;", "div-data_release"}, m31885k = 1, m31886mv = {1, 5, 1})
+/* loaded from: classes2.dex */
+public abstract class DivChangeTransitionTemplate implements JSONSerializable, JsonTemplate<DivChangeTransition> {
+
+    /* renamed from: a */
+    @NotNull
+    public static final Companion f34861a = new Companion(null);
+
+    /* renamed from: b */
+    @NotNull
+    public static final Function2<ParsingEnvironment, JSONObject, DivChangeTransitionTemplate> f34862b = new Function2<ParsingEnvironment, JSONObject, DivChangeTransitionTemplate>() { // from class: com.yandex.div2.DivChangeTransitionTemplate$Companion$CREATOR$1
+        @Override // kotlin.jvm.functions.Function2
+        public DivChangeTransitionTemplate invoke(ParsingEnvironment parsingEnvironment, JSONObject jSONObject) {
+            Object m17338a;
+            DivChangeTransitionTemplate bounds;
+            ParsingEnvironment env = parsingEnvironment;
+            JSONObject it = jSONObject;
+            Intrinsics.m32179h(env, "env");
+            Intrinsics.m32179h(it, "it");
+            DivChangeTransitionTemplate.Companion companion = DivChangeTransitionTemplate.f34861a;
+            m17338a = JsonParserKt.m17338a(it, "type", (r5 & 2) != 0 ? C2904b.f33860g : null, env.getF34328a(), env);
+            String str = (String) m17338a;
+            JsonTemplate<?> jsonTemplate = env.mo17207b().get(str);
+            DivChangeTransitionTemplate divChangeTransitionTemplate = jsonTemplate instanceof DivChangeTransitionTemplate ? (DivChangeTransitionTemplate) jsonTemplate : null;
+            if (divChangeTransitionTemplate != null) {
+                if (divChangeTransitionTemplate instanceof DivChangeTransitionTemplate.Set) {
+                    str = "set";
+                } else {
+                    if (!(divChangeTransitionTemplate instanceof DivChangeTransitionTemplate.Bounds)) {
+                        throw new NoWhenBranchMatchedException();
+                    }
+                    str = "change_bounds";
+                }
+            }
+            if (Intrinsics.m32174c(str, "set")) {
+                bounds = new DivChangeTransitionTemplate.Set(new DivChangeSetTransitionTemplate(env, (DivChangeSetTransitionTemplate) (divChangeTransitionTemplate != null ? divChangeTransitionTemplate.m17597c() : null), false, it));
+            } else {
+                if (!Intrinsics.m32174c(str, "change_bounds")) {
+                    throw ParsingExceptionKt.m17528m(it, "type", str);
+                }
+                bounds = new DivChangeTransitionTemplate.Bounds(new DivChangeBoundsTransitionTemplate(env, (DivChangeBoundsTransitionTemplate) (divChangeTransitionTemplate != null ? divChangeTransitionTemplate.m17597c() : null), false, it));
+            }
+            return bounds;
+        }
+    };
+
+    /* compiled from: DivChangeTransitionTemplate.kt */
+    @Metadata(m31882bv = {}, m31883d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b\u0016\u0018\u00002\u00020\u0001¨\u0006\u0002"}, m31884d2 = {"Lcom/yandex/div2/DivChangeTransitionTemplate$Bounds;", "Lcom/yandex/div2/DivChangeTransitionTemplate;", "div-data_release"}, m31885k = 1, m31886mv = {1, 5, 1})
+    public static class Bounds extends DivChangeTransitionTemplate {
+
+        /* renamed from: c */
+        @NotNull
+        public final DivChangeBoundsTransitionTemplate f34863c;
+
+        public Bounds(@NotNull DivChangeBoundsTransitionTemplate divChangeBoundsTransitionTemplate) {
+            super(null);
+            this.f34863c = divChangeBoundsTransitionTemplate;
+        }
+    }
+
+    /* compiled from: DivChangeTransitionTemplate.kt */
+    @Metadata(m31882bv = {}, m31883d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001¨\u0006\u0002"}, m31884d2 = {"Lcom/yandex/div2/DivChangeTransitionTemplate$Companion;", "", "div-data_release"}, m31885k = 1, m31886mv = {1, 5, 1})
+    public static final class Companion {
+        public Companion() {
+        }
+
+        public Companion(DefaultConstructorMarker defaultConstructorMarker) {
+        }
+    }
+
+    /* compiled from: DivChangeTransitionTemplate.kt */
+    @Metadata(m31882bv = {}, m31883d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b\u0016\u0018\u00002\u00020\u0001¨\u0006\u0002"}, m31884d2 = {"Lcom/yandex/div2/DivChangeTransitionTemplate$Set;", "Lcom/yandex/div2/DivChangeTransitionTemplate;", "div-data_release"}, m31885k = 1, m31886mv = {1, 5, 1})
+    public static class Set extends DivChangeTransitionTemplate {
+
+        /* renamed from: c */
+        @NotNull
+        public final DivChangeSetTransitionTemplate f34865c;
+
+        public Set(@NotNull DivChangeSetTransitionTemplate divChangeSetTransitionTemplate) {
+            super(null);
+            this.f34865c = divChangeSetTransitionTemplate;
+        }
+    }
+
+    public DivChangeTransitionTemplate() {
+    }
+
+    @Override // com.yandex.div.json.JsonTemplate
+    @NotNull
+    /* renamed from: b, reason: merged with bridge method [inline-methods] */
+    public DivChangeTransition mo17514a(@NotNull ParsingEnvironment env, @NotNull JSONObject data) {
+        Intrinsics.m32179h(env, "env");
+        Intrinsics.m32179h(data, "data");
+        if (this instanceof Set) {
+            return new DivChangeTransition.Set(((Set) this).f34865c.mo17514a(env, data));
+        }
+        if (this instanceof Bounds) {
+            return new DivChangeTransition.Bounds(((Bounds) this).f34863c.mo17514a(env, data));
+        }
+        throw new NoWhenBranchMatchedException();
+    }
+
+    @NotNull
+    /* renamed from: c */
+    public Object m17597c() {
+        if (this instanceof Set) {
+            return ((Set) this).f34865c;
+        }
+        if (this instanceof Bounds) {
+            return ((Bounds) this).f34863c;
+        }
+        throw new NoWhenBranchMatchedException();
+    }
+
+    public DivChangeTransitionTemplate(DefaultConstructorMarker defaultConstructorMarker) {
+    }
+}

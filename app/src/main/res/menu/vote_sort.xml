@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/vote_desc"
+        android:title="@string/sort_vote_desc"/>
+    <item
+        android:id="@+id/vote_asc"
+        android:title="@string/sort_vote_asc"/>
+    <item
+        android:id="@+id/vote_five_star"
+        android:title="@string/sort_vote_five_star"/>
+    <item
+        android:id="@+id/vote_four_star"
+        android:title="@string/sort_vote_four_star"/>
+    <item
+        android:id="@+id/vote_three_star"
+        android:title="@string/sort_vote_three_star"/>
+    <item
+        android:id="@+id/vote_two_star"
+        android:title="@string/sort_vote_two_star"/>
+    <item
+        android:id="@+id/vote_one_star"
+        android:title="@string/sort_vote_one_star"/>
+</menu>

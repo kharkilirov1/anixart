@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:entries="@array/players_values"
+        android:title="@string/player"
+        android:key="selected_player"
+        android:defaultValue="0"
+        android:dialogTitle="@string/player"
+        android:entryValues="@array/entry_players_values"
+        app:iconSpaceReserved="false"
+        app:useSimpleSummaryProvider="true"/>
+    <PreferenceCategory
+        android:title="Встроенный видеоплеер"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:entries="@array/video_quality_values"
+            android:title="@string/video_quality_priority"
+            android:key="selected_video_quality"
+            android:defaultValue="0"
+            android:dialogTitle="@string/video_quality_priority"
+            android:entryValues="@array/entry_video_quality_values"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            android:title="@string/selected_player_rewind_time"
+            android:key="selected_player_rewind_time"
+            app:iconSpaceReserved="false"/>
+        <SwitchPreference
+            android:title="Горизонтальное положение"
+            android:key="player_only_horizontal_orientation"
+            android:summary="Во встроенном плеере разрешить только горизонтальное положение"
+            android:widgetLayout="@layout/preference_switch"
+            app:iconSpaceReserved="false"/>
+        <SwitchPreference
+            android:title="Автовоспроизведение"
+            android:key="auto_play"
+            android:summary="Во встроенном плеере сразу после окончания видео начинает воспроизводиться следующее"
+            android:widgetLayout="@layout/preference_switch"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Сторонний видеоплеер"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:entries="@array/third_party_video_quality_values"
+            android:title="@string/video_quality_third_party_priority"
+            android:key="selected_third_party_video_quality"
+            android:defaultValue="0"
+            android:dialogTitle="@string/video_quality_third_party_priority"
+            android:entryValues="@array/entry_third_party_video_quality_values"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Загрузка видео"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:entries="@array/downloader_values"
+            android:title="@string/downloader_method"
+            android:key="selected_downloader"
+            android:defaultValue="0"
+            android:dialogTitle="@string/downloader_method"
+            android:entryValues="@array/entry_downloader_values"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Дополнительно"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false">
+        <SwitchPreference
+            android:title="@string/remember_type_source"
+            android:key="remember_type_source"
+            android:summary="@string/remember_type_source_summary"
+            android:widgetLayout="@layout/preference_switch"
+            app:iconSpaceReserved="false"/>
+        <SwitchPreference
+            android:title="@string/remember_third_party_platform"
+            android:key="remember_third_party_platform"
+            android:summary="@string/remember_third_party_platform_summary"
+            android:widgetLayout="@layout/preference_switch"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+    <Preference
+        android:layout="@layout/preference_separator"
+        android:selectable="false"
+        android:key="sources_separator"/>
+    <PreferenceCategory
+        android:title="@string/sources_category"
+        android:key="sources"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:title="@string/kodik_video_quality"
+            android:key="selected_kodik_video_quality"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

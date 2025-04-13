@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_title_ru"
+        android:title="@string/export_sort_title_ru"/>
+    <item
+        android:id="@+id/sort_profile_list_status"
+        android:title="@string/export_sort_profile_list_status"/>
+    <item
+        android:id="@+id/sort_your_vote"
+        android:title="@string/export_sort_your_vote"/>
+</menu>

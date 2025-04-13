@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:layout="@layout/preference_space"
+        android:selectable="false"/>
+    <ListPreference
+        android:title="@string/night_mode"
+        android:key="night_mode"
+        android:defaultValue="0"
+        android:dialogTitle="@string/night_mode"
+        app:icon="@drawable/ic_preference_night"
+        app:useSimpleSummaryProvider="true"/>
+    <Preference
+        android:layout="@layout/preference_separator"
+        android:selectable="false"
+        android:key="playback_separator"/>
+    <Preference
+        android:title="Уведомления"
+        android:key="notifications_preferences"
+        app:icon="@drawable/ic_preference_bell"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:title="Воспроизведение"
+        android:key="playback_preferences"
+        app:icon="@drawable/ic_preference_playback"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:title="Внешний вид"
+        android:key="appearance_preferences"
+        app:icon="@drawable/ic_preference_appearance"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:title="Управление данными"
+        android:key="data_preferences"
+        app:icon="@drawable/ic_preference_data"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:title="Дополнительно"
+        android:key="additional_preferences"
+        app:icon="@drawable/ic_preference_additional"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:layout="@layout/preference_separator"
+        android:selectable="false"
+        android:key="playback_separator"/>
+    <Preference
+        android:title="Помощь"
+        android:key="support_preferences"
+        app:icon="@drawable/ic_preference_help"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:title="Правила сообщества"
+        android:key="rules_preferences"
+        app:icon="@drawable/ic_preference_rules"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:title="Проверить обновления"
+        android:key="update_preferences"
+        app:icon="@drawable/ic_preference_update"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:key="version_preferences"
+        app:iconSpaceReserved="false"/>
+</PreferenceScreen>

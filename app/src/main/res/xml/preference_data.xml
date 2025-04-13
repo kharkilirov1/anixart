@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:title="@string/bookmarks_import"
+        android:key="bookmarks_import"
+        android:summary="@string/bookmarks_import_summary"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+    <Preference
+        android:title="@string/bookmarks_export"
+        android:key="bookmarks_export"
+        android:summary="@string/bookmarks_export_summary"
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"/>
+</PreferenceScreen>

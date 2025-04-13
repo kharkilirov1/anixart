@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_done_all"
+        android:id="@+id/watch_marks_add"
+        android:title="@string/watch_marks_add"/>
+    <item
+        android:icon="@drawable/ic_remove_done"
+        android:id="@+id/watch_marks_remove"
+        android:title="@string/watch_marks_remove"/>
+</menu>

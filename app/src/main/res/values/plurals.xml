@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="collections">
+        <item quantity="zero">%1$d коллекций</item>
+        <item quantity="one">%1$d коллекция</item>
+        <item quantity="two">%1$d коллекции</item>
+        <item quantity="few">%1$d коллекции</item>
+        <item quantity="many">%1$d коллекций</item>
+        <item quantity="other">%1$d коллекций</item>
+    </plurals>
+    <plurals name="collections_short">
+        <item quantity="zero">коллекций</item>
+        <item quantity="one">коллекция</item>
+        <item quantity="two">коллекции</item>
+        <item quantity="few">коллекции</item>
+        <item quantity="many">коллекций</item>
+        <item quantity="other">коллекций</item>
+    </plurals>
+    <plurals name="comment_votes">
+        <item quantity="one">%1$d голос</item>
+        <item quantity="two">%1$d голоса</item>
+        <item quantity="few">%1$d голоса</item>
+        <item quantity="many">%1$d голосов</item>
+        <item quantity="other">%1$d голосов</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="one">%1$d комментарий</item>
+        <item quantity="two">%1$d комментария</item>
+        <item quantity="few">%1$d комментария</item>
+        <item quantity="many">%1$d комментариев</item>
+        <item quantity="other">%1$d комментариев</item>
+    </plurals>
+    <plurals name="comments_short">
+        <item quantity="zero">комментов</item>
+        <item quantity="one">коммент</item>
+        <item quantity="two">коммента</item>
+        <item quantity="few">коммента</item>
+        <item quantity="many">комментов</item>
+        <item quantity="other">комментов</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="two">%1$d дня</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дней</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="friend_count">
+        <item quantity="zero">%1$d друзей</item>
+        <item quantity="one">%1$d друг</item>
+        <item quantity="two">%1$d друга</item>
+        <item quantity="few">%1$d друга</item>
+        <item quantity="many">%1$d друзей</item>
+        <item quantity="other">%1$d друзей</item>
+    </plurals>
+    <plurals name="friends">
+        <item quantity="zero">друзей</item>
+        <item quantity="one">друг</item>
+        <item quantity="two">друга</item>
+        <item quantity="few">друга</item>
+        <item quantity="many">друзей</item>
+        <item quantity="other">друзей</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%1$d час</item>
+        <item quantity="two">%1$d часа</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часов</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%1$d минута</item>
+        <item quantity="two">%1$d минуты</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+        <item quantity="other">%1$d минут</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="planning">
+        <item quantity="one">планирует</item>
+        <item quantity="two">планируют</item>
+        <item quantity="few">планируют</item>
+        <item quantity="many">планируют</item>
+        <item quantity="other">планируют</item>
+    </plurals>
+    <plurals name="release_types">
+        <item quantity="one">Выбрана %1$d озвучка</item>
+        <item quantity="two">Выбрано %1$d озвучки</item>
+        <item quantity="few">Выбрано %1$d озвучки</item>
+        <item quantity="many">Выбрано %1$d озвучек</item>
+        <item quantity="other">Выбрано %1$d озвучек</item>
+    </plurals>
+    <plurals name="releases">
+        <item quantity="zero">%1$d релизов</item>
+        <item quantity="one">%1$d релиз</item>
+        <item quantity="two">%1$d релиза</item>
+        <item quantity="few">%1$d релиза</item>
+        <item quantity="many">%1$d релизов</item>
+        <item quantity="other">%1$d релизов</item>
+    </plurals>
+    <plurals name="replies">
+        <item quantity="one">%1$d ответ</item>
+        <item quantity="two">%1$d ответа</item>
+        <item quantity="few">%1$d ответа</item>
+        <item quantity="many">%1$d ответов</item>
+        <item quantity="other">%1$d ответов</item>
+    </plurals>
+    <plurals name="show_replies">
+        <item quantity="one">Показать %1$d ответ</item>
+        <item quantity="two">Показать %1$d ответа</item>
+        <item quantity="few">Показать %1$d ответа</item>
+        <item quantity="many">Показать %1$d ответов</item>
+        <item quantity="other">Показать %1$d ответов</item>
+    </plurals>
+    <plurals name="users">
+        <item quantity="one">пользователь</item>
+        <item quantity="two">пользователя</item>
+        <item quantity="few">пользователя</item>
+        <item quantity="many">пользователей</item>
+        <item quantity="other">пользователей</item>
+    </plurals>
+    <plurals name="votes">
+        <item quantity="zero">голосов</item>
+        <item quantity="one">голос</item>
+        <item quantity="two">голоса</item>
+        <item quantity="few">голоса</item>
+        <item quantity="many">голосов</item>
+        <item quantity="other">голосов</item>
+    </plurals>
+</resources>

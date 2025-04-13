@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/sort_desc"
+        android:id="@+id/profile_list_desc"
+        android:title="@string/sort_profile_list_desc"/>
+    <item
+        android:icon="@drawable/sort_asc"
+        android:id="@+id/profile_list_asc"
+        android:title="@string/sort_profile_list_asc"/>
+    <item
+        android:icon="@drawable/sort_desc"
+        android:id="@+id/release_desc"
+        android:title="@string/sort_release_desc"/>
+    <item
+        android:icon="@drawable/sort_asc"
+        android:id="@+id/release_asc"
+        android:title="@string/sort_release_asc"/>
+    <item
+        android:icon="@drawable/sort_desc"
+        android:id="@+id/title_desc"
+        android:title="@string/sort_title_desc"/>
+    <item
+        android:icon="@drawable/sort_asc"
+        android:id="@+id/title_asc"
+        android:title="@string/sort_title_asc"/>
+</menu>

@@ -1,0 +1,61 @@
+package com.p017vk.api.sdk.internal;
+
+import java.util.Objects;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/* compiled from: HttpMultipartEntry.kt */
+@Metadata(m31882bv = {1, 0, 3}, m31883d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0003\bf\u0018\u00002\u00020\u0001:\u0002\u0002\u0003¨\u0006\u0004"}, m31884d2 = {"Lcom/vk/api/sdk/internal/HttpMultipartEntry;", "", "File", "Text", "libapi-sdk-core_release"}, m31885k = 1, m31886mv = {1, 1, 16})
+/* loaded from: classes2.dex */
+public interface HttpMultipartEntry {
+
+    /* compiled from: HttpMultipartEntry.kt */
+    @Metadata(m31882bv = {}, m31883d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001¨\u0006\u0002"}, m31884d2 = {"Lcom/vk/api/sdk/internal/HttpMultipartEntry$File;", "Lcom/vk/api/sdk/internal/HttpMultipartEntry;", "libapi-sdk-core_release"}, m31885k = 1, m31886mv = {1, 4, 0})
+    public static final class File implements HttpMultipartEntry {
+        public boolean equals(@Nullable Object obj) {
+            if (this == obj) {
+                return true;
+            }
+            if (!(obj instanceof File)) {
+                return false;
+            }
+            Objects.requireNonNull((File) obj);
+            return Intrinsics.m32174c(null, null);
+        }
+
+        public int hashCode() {
+            throw null;
+        }
+
+        @NotNull
+        public String toString() {
+            return "File{fileUri='null'}";
+        }
+    }
+
+    /* compiled from: HttpMultipartEntry.kt */
+    @Metadata(m31882bv = {}, m31883d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001¨\u0006\u0002"}, m31884d2 = {"Lcom/vk/api/sdk/internal/HttpMultipartEntry$Text;", "Lcom/vk/api/sdk/internal/HttpMultipartEntry;", "libapi-sdk-core_release"}, m31885k = 1, m31886mv = {1, 4, 0})
+    public static final class Text implements HttpMultipartEntry {
+        public boolean equals(@Nullable Object obj) {
+            if (this == obj) {
+                return true;
+            }
+            if (!(obj instanceof Text)) {
+                return false;
+            }
+            Objects.requireNonNull((Text) obj);
+            return Intrinsics.m32174c(null, null);
+        }
+
+        public int hashCode() {
+            throw null;
+        }
+
+        @NotNull
+        public String toString() {
+            return "Text{textValue='null'}";
+        }
+    }
+}

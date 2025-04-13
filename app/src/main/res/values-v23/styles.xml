@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">#ffffff</item>
+        <item name="android:textColorSecondary">@color/md_grey_500</item>
+        <item name="android:navigationBarColor">#bdbdbd</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="actionBarSize">56dp</item>
+        <item name="addFavButtonColor">@color/md_white_1000</item>
+        <item name="addFavButtonTextColor">@color/md_grey_600</item>
+        <item name="alertDialogTheme">@style/DialogTheme</item>
+        <item name="backgroundAdItem">@color/black_alpha_5</item>
+        <item name="backgroundColorSecondary">#feffff</item>
+        <item name="backgroundColorTertiary">#f5f5f5</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="colorAccent">@color/carmine</item>
+        <item name="colorOnBackground">#ffffff</item>
+        <item name="colorPrimary">@color/carmine</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorSurface">#ffffff</item>
+        <item name="deleteButtonColor">@color/md_red_400</item>
+        <item name="deleteButtonTextColor">@color/md_grey_50</item>
+        <item name="dialogBackgroundAccent">@color/accent_alpha_70</item>
+        <item name="dialogPreferenceStyle">@style/CustomDialogPreferenceStyle</item>
+        <item name="editButtonColor">@color/md_blue_400</item>
+        <item name="editButtonTextColor">@color/md_grey_50</item>
+        <item name="iconAccentTintColor">@color/carmine</item>
+        <item name="iconAltTintColor">@color/carmine</item>
+        <item name="iconLightDarkColor">#212121</item>
+        <item name="iconSecondaryTintColor">#e0e0e0</item>
+        <item name="iconTintColor">#757575</item>
+        <item name="invertBlackWhiteColor">#212121</item>
+        <item name="invertColor">#fafafa</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+        <item name="placeholderEnd">#f2f2f2</item>
+        <item name="placeholderStart">#e9e9e9</item>
+        <item name="popupMenuBackground">@drawable/custom_m3_popupmenu_background_overlay</item>
+        <item name="preferenceCategoryTitleTextColor">@color/carmine</item>
+        <item name="preferenceStyle">@style/CustomPreferenceStyle</item>
+        <item name="primaryTextColor">#212121</item>
+        <item name="progressBackTint">#e0e0e0</item>
+        <item name="progressTint">@color/carmine</item>
+        <item name="secondaryButtonColor">@color/md_grey_200</item>
+        <item name="secondaryButtonTextColor">@color/md_grey_700</item>
+        <item name="secondaryTextColor">#757575</item>
+        <item name="sectionBadgeColor">@color/md_grey_100</item>
+        <item name="separatorColor">#1a000000</item>
+        <item name="switchPreferenceStyle">@style/CustomSwitchPreferenceStyle</item>
+        <item name="tertiaryTextColor">#9e9e9e</item>
+        <item name="tooltipColor">@color/carmine</item>
+        <item name="tooltipTextColor">#f2f2f2</item>
+        <item name="warningTextColor">#ddb650</item>
+    </style>
+    <style name="AppTheme.Auth" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="backgroundColorSecondary">#ffffff</item>
+        <item name="colorAccent">@color/carmine</item>
+        <item name="colorPrimary">@color/carmine</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+        <item name="primaryTextColor">#212121</item>
+        <item name="secondaryTextColor">#757575</item>
+        <item name="tertiaryTextColor">#9e9e9e</item>
+        <item name="warningTextColor">#ddb650</item>
+    </style>
+    <style name="AppTheme.KodikAdTheme" parent="@style/AppTheme">
+        <item name="android:statusBarColor">@color/md_black_1000</item>
+        <item name="android:navigationBarColor">@color/md_black_1000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="addFavButtonColor">@color/md_grey_300</item>
+        <item name="addFavButtonTextColor">@color/md_grey_900</item>
+        <item name="alertDialogTheme">@style/DialogTheme</item>
+        <item name="backgroundAdItem">@color/white_alpha_5</item>
+        <item name="backgroundColorSecondary">#252525</item>
+        <item name="backgroundColorTertiary">#1a1a1a</item>
+        <item name="colorAccent">@color/md_black_1000</item>
+        <item name="colorPrimary">@color/md_black_1000</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="deleteButtonColor">#252525</item>
+        <item name="deleteButtonTextColor">@color/md_grey_300</item>
+        <item name="dialogBackgroundAccent">@color/accent_alpha_20</item>
+        <item name="editButtonColor">#252525</item>
+        <item name="editButtonTextColor">@color/md_grey_300</item>
+        <item name="iconAltTintColor">#e0e0e0</item>
+        <item name="iconLightDarkColor">#e0e0e0</item>
+        <item name="iconSecondaryTintColor">#616161</item>
+        <item name="iconTintColor">#757575</item>
+        <item name="invertBlackWhiteColor">#e0e0e0</item>
+        <item name="invertColor">#212121</item>
+        <item name="placeholderEnd">#616161</item>
+        <item name="placeholderStart">#424242</item>
+        <item name="primaryTextColor">#e0e0e0</item>
+        <item name="progressBackTint">#424242</item>
+        <item name="progressTint">#e0e0e0</item>
+        <item name="secondaryButtonColor">#252525</item>
+        <item name="secondaryButtonTextColor">@color/md_grey_300</item>
+        <item name="secondaryTextColor">#9e9e9e</item>
+        <item name="sectionBadgeColor">@color/md_grey_900</item>
+        <item name="separatorColor">#1affffff</item>
+        <item name="tertiaryTextColor">#757575</item>
+        <item name="tooltipColor">@color/carmine</item>
+        <item name="tooltipTextColor">#f2f2f2</item>
+        <item name="warningTextColor">#745c21</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView" parent="@style/Base.ThemeOverlay.Material3.AutoCompleteTextView">
+        <item name="colorControlNormal">@color/m3_textfield_indicator_text_color</item>
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText" parent="@style/Base.ThemeOverlay.Material3.TextInputEditText">
+        <item name="colorControlNormal">@color/m3_textfield_indicator_text_color</item>
+    </style>
+    <style name="Widget.Material3.ActionBar.Solid" parent="@style/Base.Widget.Material3.ActionBar.Solid">
+        <item name="background">@drawable/m3_appbar_background</item>
+        <item name="backgroundSplit">@drawable/m3_appbar_background</item>
+        <item name="backgroundStacked">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="Widget.Material3.ActionMode" parent="@style/Base.Widget.Material3.ActionMode">
+        <item name="background">@drawable/m3_appbar_background</item>
+        <item name="backgroundSplit">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.CheckBox" parent="@style/Base.Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.RadioButton" parent="@style/Base.Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/m3_radiobutton_ripple</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.Switch" parent="@style/Base.Widget.Material3.CompoundButton.Switch">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="Widget.Material3.Light.ActionBar.Solid" parent="@style/Base.Widget.Material3.Light.ActionBar.Solid">
+        <item name="background">@drawable/m3_appbar_background</item>
+        <item name="backgroundSplit">@drawable/m3_appbar_background</item>
+        <item name="backgroundStacked">@drawable/m3_appbar_background</item>
+    </style>
+    <style name="Widget.Material3.TabLayout.OnSurface" parent="@style/Base.Widget.Material3.TabLayout.OnSurface">
+        <item name="android:background">@drawable/m3_tabs_transparent_background</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+</resources>
